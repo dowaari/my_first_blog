@@ -52,22 +52,27 @@
 
 4. Git 사용하기
     - Git 설치, 프로젝트 폴더에서 Git Bash 실행
-    - Github 가입 및 저장소(repository) 만들기, 저장소 주소 복사
+    - Github 가입 및 저장소(repository) 만들기, readme 체크X, 나중에 만들기 
+    - 저장소 주소 복사
     - gitignore 작성하여 특정파일 업로드 무시할수있음.
     - PC에서 Github 저장소로 처음 올리기
         ``` 
         (a) git init
-        (b) git confit --global user
-        (c) git add .
-        (d) git commit -m "first commit"
-        (e) git remote add origin 깃헙주소
-        (f) git push -u orgin master
+        (생략) echo "아무내용" > README.md
+        (생략) echo "아무내용" > .gitignore
+        (b) git config --global user.name "이름"
+        (c) git config --global user.email "이메일"
+        (d) git add .
+        (e) git commit -m "first commit"
+        (f) git remote add origin 깃헙주소
+        (g) git push -u orgin master
+        강제로 업로드 git push -u origin +master
         ```
     - PC에서 Github으로 업데이트
         ``` 
-        (c) git add --all .
-        (d) git commit -m "second commit"
-        (f) git push
+        (d) git add --all . 또는 git add .
+        (e) git commit -m "second commit"
+        (g) git push 또는 git push -u orgin master
         ```    
     - Github에서 PC로 처음 가져오기
         ``` 
