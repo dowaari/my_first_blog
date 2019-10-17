@@ -1,6 +1,7 @@
 # my_first_blog
 장고걸스 튜토리얼 그대로 따라하기
-- https://tutorial.djangogirls.org/ko/
+- 강의: https://tutorial.djangogirls.org/ko/
+- 구현: https://dowtech.pythonanywhere.com/
 - 윈도우 기준, 아나콘다 설치, Visual Studio Code 사용
 - cmd 또는 Anaconda prompt를 관리자권한으로 실행
 
