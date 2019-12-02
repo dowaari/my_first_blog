@@ -82,6 +82,22 @@
         ``` 
         - git pull
         ```            
+    - PC에서 Github으로 업데이트 (패치 후 올리기)
+        ``` 
+        - git fetch
+        - git diff origin/master
+        - esc -> !q
+        - git pull
+        - https://stackoverflow.com/questions/19085807/please-enter-a-commit-message-to-explain-why-this-merge-is-necessary-especially
+            (1) Press "i"
+            (2) Enter you message after "#"
+            (3) Press "esc"
+            (4) at the very bottom write ":wq"
+            (5) Press "Enter"
+        - git add .
+        - git commit -m "third commit"
+        - git push
+        ```           
 
 5. 몰랐던 부분
     - 폼 사용
