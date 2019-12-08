@@ -22,9 +22,10 @@
       - 나가기 deactivate
     - 장고패키지 설치: 
       - python -m pip install --upgrade pip
-      - pip install django~=2.0.0 # 2.0대로 설치
+      - pip install django~=2.0.0 # 2.0대로 설치 (버전설정 없을시 최신버전)
       - pip install "django<2" # 2.0 미만으로 설치
       - django-admin --version # 장고설치 확인
+      - pip freeze > requirements.txt # 설치패키지 리스트 생성
 
 3. 장고 사용하기 대략적인 순서
     ```
