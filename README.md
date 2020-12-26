@@ -26,6 +26,7 @@
       - pip install "django<2" # 2.0 미만으로 설치
       - django-admin --version # 장고설치 확인
       - pip freeze > requirements.txt # 설치패키지 리스트 생성
+      - pip3 install -U -r requirements.txt # 리스트 설치하기
 
 3. 장고 사용하기 대략적인 순서
     ```
